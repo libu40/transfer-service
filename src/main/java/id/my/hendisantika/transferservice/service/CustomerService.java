@@ -7,16 +7,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-/**
- * Created by IntelliJ IDEA.
- * Project : transfer-service
- * User: hendisantika
- * Email: hendisantika@gmail.com
- * Telegram : @hendisantika34
- * Date: 4/28/24
- * Time: 07:06
- * To change this template use File | Settings | File Templates.
- */
 @Slf4j
 @Service
 @AllArgsConstructor

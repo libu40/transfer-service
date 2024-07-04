@@ -1,9 +1,16 @@
 package id.my.hendisantika.transferservice.controller;
 
+import static id.my.hendisantika.transferservice.controller.DepositController.REQUEST_UID;
+import static org.springframework.http.HttpStatus.BAD_REQUEST;
+import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
+import static org.springframework.http.HttpStatus.NOT_FOUND;
+
 import id.my.hendisantika.transferservice.dto.ApiErrorResponse;
 import id.my.hendisantika.transferservice.exception.NotFoundException;
 import id.my.hendisantika.transferservice.metric.MetricsService;
 import jakarta.servlet.ServletRequest;
+import java.util.ArrayList;
+import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
@@ -11,24 +18,6 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import static id.my.hendisantika.transferservice.controller.DepositController.REQUEST_UID;
-import static org.springframework.http.HttpStatus.BAD_REQUEST;
-import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
-import static org.springframework.http.HttpStatus.NOT_FOUND;
-
-/**
- * Created by IntelliJ IDEA.
- * Project : transfer-service
- * User: hendisantika
- * Email: hendisantika@gmail.com
- * Telegram : @hendisantika34
- * Date: 4/28/24
- * Time: 07:09
- * To change this template use File | Settings | File Templates.
- */
 @Slf4j
 @ControllerAdvice
 @AllArgsConstructor

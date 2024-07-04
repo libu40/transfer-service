@@ -6,16 +6,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * Created by IntelliJ IDEA.
- * Project : transfer-service
- * User: hendisantika
- * Email: hendisantika@gmail.com
- * Telegram : @hendisantika34
- * Date: 4/28/24
- * Time: 07:01
- * To change this template use File | Settings | File Templates.
- */
 @Configuration
 @Slf4j
 public class TransferServiceConfig {
