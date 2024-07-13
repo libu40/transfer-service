@@ -17,7 +17,7 @@ spring:
     hikari:
       maximumPoolSize: 3
       autoCommit: false
-    password: hendi34
+    password: postgres
   liquibase:
     enabled: true
     change-log: classpath:db/changelog-master.xml

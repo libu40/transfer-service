@@ -10,7 +10,7 @@ services:
       POSTGRES_HOST_AUTH_METHOD: trust
       PGDATA: /data/postgres
     volumes:
-      - ./postgres/data:/data/postgres
+      - postgres_data:/data/postgres
     ports:
       - "5433:5432"
 
@@ -39,3 +39,6 @@ services:
     container_name: zipkin
     ports:
       - "9411:9411" # Expose the Zipkin UI port
+
+volumes:
+  postgres_data:
