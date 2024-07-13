@@ -8,7 +8,7 @@
         <version>3.2.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>id.my.hendisantika</groupId>
+    <groupId>org.payment.transferservice</groupId>
     <artifactId>transfer-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>transfer-service</name>

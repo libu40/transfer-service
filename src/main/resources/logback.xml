@@ -24,7 +24,7 @@
     <root level="INFO">
         <appender-ref ref="logAppender"/>
     </root>
-    <logger name="id.my.hendisantika.transferservice" level="DEBUG"/>
+    <logger name="org.payment.transferservice" level="DEBUG"/>
 </configuration>
 
         <!--Format log messages to include:

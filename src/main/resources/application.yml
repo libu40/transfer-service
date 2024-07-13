@@ -49,6 +49,6 @@ springdoc:
     path: /transfer-docs/swagger-ui-custom.html
 
 logging.level:
-  id.my.hendisantika.transferservice: debug
+  org.payment.transferservice: debug
   org.springframework.jdbc.core: TRACE
   io.micrometer.observation: TRACE
